@@ -7,6 +7,9 @@ import About from './components/About/About';
 import Services from './components/Services/Services';
 import CarList from './components/CarList/CarList';
 import Testimonial from './components/Testimonial/Testimonial';
+import Banner from './components/Banner/Banner';
+import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 
 const App = () => {
 
@@ -40,12 +43,17 @@ const App = () => {
 
   return (
     <div>
+      
       <Navbar theme={theme} setTheme={setTheme} />
       <Hero theme={theme} />
       <About />
       <Services />
       <CarList />
       <Testimonial />
+      <Banner />
+      <Contact />
+      <Footer />
+      
     </div>
   )
 }
